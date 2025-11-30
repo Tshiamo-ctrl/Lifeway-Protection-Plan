@@ -8,9 +8,11 @@ d tv
 .qoder/rules/byterover-rules.md
 .augment/rules/byterover-rules.md
 
-# Ignore all files except index.html and PDF files
+# Ignore all files except index.html
 *
-!*.pdf
 !index.html
 !.gitignore
 !.github/
+
+# Explicitly ignore PDF files (sensitive documents)
+*.pdf
